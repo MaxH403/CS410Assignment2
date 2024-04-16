@@ -1808,6 +1808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2008973354732098957}
   gameEnding: {fileID: 5642716984738007026}
+  viewAngle: 110
 --- !u!1 &1277040776 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 186551185459921408, guid: 549c69af39b84624b8a053537c407def,
@@ -3769,6 +3770,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 840455984}
     m_Modifications:
+    - target: {fileID: 1176990128951978394, guid: abeb186619cc7e6419cb81e1e4dfa162,
+        type: 3}
+      propertyPath: slowApproachDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1176990128951978394, guid: abeb186619cc7e6419cb81e1e4dfa162,
         type: 3}
       propertyPath: waypoints.Array.size
